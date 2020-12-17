@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>웹기능사 A-1 에밋구조_수험번호_임예림</title>
+  <title>웹기능사 A-1 에밋구조_임예림</title>
 </head>
 <body>
-  .container>header#hd+section#main+footer#fd
-.container>header#hd>
-h1>a>img^^ul#gnb>li*4>a+ul.d2>li*4>a+section#main
-(>.slide+.gallery+.banner+.shortcut)+footer#fd(.logo+.copyright+.sns)
 
+.container>header#hd>h1>a>img^^ul#gnb>li*4>a+ul.d2>li*4>a
++section#main>div#mainbanner>ul>li*3>img+div.threeBanner>div*3
++footer#ft>h2>a>img^^div.copyright>a^ul.sns>li*2>a
 
   <div class="container">
     <header id="hd">
@@ -54,17 +53,45 @@ h1>a>img^^ul#gnb>li*4>a+ul.d2>li*4>a+section#main
               </ul>
             </li>
           </ul>
-
-
-
-
-
     </header>
-
-
-    <section id="main"></section>
-    <footer id="fd"></footer>
-
+    <section id="main">
+       <div id="mainbanner">
+         <ul>
+           <li>
+             <img src="" alt="">
+             <div class="threeBanner">
+               <div></div>
+               <div></div>
+               <div></div>
+             </div>
+           </li>
+           <li>
+             <img src="" alt="">
+             <div class="threeBanner">
+               <div></div>
+               <div></div>
+               <div></div>
+             </div>
+           </li>
+           <li>
+             <img src="" alt="">
+             <div class="threeBanner">
+               <div></div>
+               <div></div>
+               <div></div>
+             </div>
+           </li>
+         </ul>
+       </div>
+    </section>
+    <footer id="ft">
+       <h2><a href=""><img src="" alt=""></a></h2>
+       <div class="copyright"><a href=""></a></div>
+       <ul class="sns">
+         <li><a href=""></a></li>
+         <li><a href=""></a></li>
+       </ul>
+    </footer>
   </div>
 
 </body>
